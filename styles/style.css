@@ -74,18 +74,26 @@ body{
     margin-bottom: 2rem;
 }
 
-.michelle-div{
+.test{
     display: grid;
+    grid-template-columns: 70% 30%;
+    grid-gap: 30px;
+}
+
+.michelle-div{
+    /* display: grid;
     grid-template-columns: 20% 60% 20%;
-    grid-gap: 10px;
+    grid-gap: 10px; */
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .avatar-img{
     width: 40px;
     height: 40px;
     border-radius: 50px;
-    grid-column: 1 / 1;
     margin-bottom: 1rem;
+    margin-right: 2rem;
 }
 
 .name-date-div{
@@ -113,6 +121,7 @@ body{
     border-radius: 15px;
     margin-right: 100px;
     background-color: hsl(210, 46%, 95%);
+    margin-left: 1rem;
 }
 
 .icon-img{
@@ -201,7 +210,40 @@ body{
         margin-bottom: 1.8rem;
         margin-bottom: 3rem;
     }
-    /* FOOTER */
+
+/* Active*/
+.active-div{
+    height: 30px;
+    background-color: hsl(217, 19%, 35%);
+    border-radius: 12px;
+    padding: 1rem;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.par-share{
+    font-size: .8rem;
+    margin-top: .5rem;
+    margin-left: 1rem;
+    text-transform: uppercase;
+    color:  hsl(212, 23%, 69%);
+    letter-spacing: 3px;
+}
+
+.icon{
+    margin: .5rem ;
+}
+
+.share-btn2{
+    display: none;
+}
+
+
+
+
+/* FOOTER */
 .footer{
     display: flex;
     justify-content: center;
