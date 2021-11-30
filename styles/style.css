@@ -57,31 +57,61 @@ body{
 
 .main-title{
     color: hsl(217, 19%, 35%);
-    font-size: 1.2rem;
-    font-weight: 700;
+    font-size: 1rem;
+    font-weight: 900;
+    word-spacing: 3px;
+    letter-spacing: 1px;
+    line-height: 20px;
 }
 
 .paragraph{
+    margin-top: 1rem;
     font-size: .813rem;
+    word-spacing: 3px;
+    letter-spacing: 1px;
+    line-height: 20px;
+    margin-bottom: 2rem;
 }
 
 .michelle-div{
     display: grid;
     grid-template-columns: 20% 60% 20%;
-    grid-gap: 20px;
+    grid-gap: 10px;
 }
 
 .avatar-img{
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     border-radius: 50px;
     grid-column: 1 / 1;
+    margin-bottom: 1rem;
 }
 
 .name-date-div{
     display: flex;
     flex-direction: column;
     grid-column: 2 / 2;
+}
+
+.michelle-par{
+    font-weight: 700;
+    color: hsl(217, 19%, 35%);
+    margin-bottom: 0.5rem;
+    font-size: .875rem;
+}
+
+.small{
+    font-size: .8rem;
+    color: hsl(212, 23%, 69%);
+}
+
+.share-btn{
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    margin-right: 100px;
+    background-color: hsl(210, 46%, 95%);
 }
 
 .icon-img{
