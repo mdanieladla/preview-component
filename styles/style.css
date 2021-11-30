@@ -56,6 +56,7 @@ body{
 }
 
 .main-title{
+    padding-top: 20px;
     color: hsl(217, 19%, 35%);
     font-size: 1rem;
     font-weight: 900;
@@ -116,4 +117,14 @@ body{
 
 .icon-img{
     grid-column: 3 / 3;
+}
+
+/* FOOTER */
+.footer{
+    bottom: 0;
+}
+.link{
+    color: rgba(169, 169, 169, 1);
+    font-weight: bolder;
+    text-decoration: none;
 }
