@@ -4,7 +4,7 @@ const normalDiv = document.querySelector('.js-normal');
 
 const activeDiv = document.querySelector('.js-active');
 
-const shareBtn = document.querySelector('.js-btn');
+const shareBtn = document.querySelectorAll('.js-btn');
 
 function handleClickBtn() {
   if (activeDiv.classList.contains('hidden')) {
@@ -16,4 +16,4 @@ function handleClickBtn() {
   }
 }
 
-shareBtn.addEventListener('click', handleClickBtn);
+shareBtn.forEach((n) => n.addEventListener('click', handleClickBtn));
