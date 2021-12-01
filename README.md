@@ -19,17 +19,17 @@ This is a solution to the [Article preview component challenge on Frontend Mento
 
 Users should be able to:
 
-- View the optimal layout for the component depending on their device's screen size
-- See the social media share links when they click the share icon
+- View the optimal layout for the component depending on their device's screen size [x]
+- See the social media share links when they click the share icon []
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./images/normal-mobile.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [First version](https://github.com/mdanieladla/preview-component)
+- Live Site URL: [First version](https://mdanieladla.github.io/preview-component/)
 
 ## My process
 
@@ -44,25 +44,8 @@ Users should be able to:
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
-
-To see how you can add code snippets, see below:
-
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉');
-};
-```
+With this challenge I have improved my layout skills (HTML5, CSS3) and basic JS.
+This is the first version of the challenge and that is why is not finished the desktop version (yet).
 
 ## Author
 
