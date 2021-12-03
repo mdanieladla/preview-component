@@ -20,7 +20,7 @@ This is a solution to the [Article preview component challenge on Frontend Mento
 Users should be able to:
 
 - View the optimal layout for the component depending on their device's screen size
-- See the social media share links when they click the share icon (in process)
+- See the social media share links when they click the share icon
 
 ### Screenshot
 
@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [First version](https://github.com/mdanieladla/preview-component)
-- Live Site URL: [First version](https://mdanieladla.github.io/preview-component/)
+- Solution URL: [Repo](https://github.com/mdanieladla/preview-component)
+- Live Site URL: [Live site](https://mdanieladla.github.io/preview-component/)
 
 ## My process
 
