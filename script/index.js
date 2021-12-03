@@ -1,36 +1,19 @@
 'use strict';
-// //*****************active for mobile ******************//
-// const normalDiv = document.querySelector('.js-normal');
-
-// const activeDiv = document.querySelector('.js-active');
-
-// const shareBtn = document.querySelectorAll('.js-btn');
-
-// function handleClickBtn() {
-//   if (activeDiv.classList.contains('hidden')) {
-//     activeDiv.classList.toggle('hidden');
-//     normalDiv.classList.toggle('hidden');
-//   } else {
-//     activeDiv.classList.toggle('hidden');
-//     normalDiv.classList.toggle('hidden');
-//   }
-// }
-
-// shareBtn.forEach((n) => n.addEventListener('click', handleClickBtn));
-
-//store .share and .share-img in variables
+//Traemos del HTML lso divs de share y share-img.
 const shareHtml = document.querySelector('.js-share');
 
 const shareIcon = document.querySelector('.js-share-img');
 
-//listen for click on icon
+//Escuchamos el click en el icono
 shareIcon.addEventListener('click', (ev) => {
-  //within listener
-  //show/hide correct share menu
-  //avoid shutting the sahre popup when clicking on it
+  //Dentro del listener
+  //Mostramos/cerramos el share menu correcto
+  //evitando cerrar el share popup cuando clickamos en el
   if (ev.target === shareIcon) {
+    //Comprobamos el ancho de la ventana actual
     if (window.innerWidth <= 750) {
       shareHtml.classList.toggle('active-share-mobile');
+      //si esto es verdad no queremos que el resto de la función siga funcionando asi que necesitamos devolverlo fuera
       return;
     }
     shareHtml.classList.toggle('active-share-desktop');
